@@ -2,7 +2,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
   getVisitCount();
 });
 
-const functionApiUrl = "";
+const functionApiUrl =
+  "https://azureresumefuncappleo.azurewebsites.net/api/get_resume_count?code=4FadTb_oOeT1lDa60Rx-ma39Wq3vHKyzfVZYbDIcuTbVAzFuxRHhLw%3D%3D";
 const localFunctionApi = "";
 
 const getVisitCount = () => {
